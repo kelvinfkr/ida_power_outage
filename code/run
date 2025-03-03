@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -ex
+
+# Run MATLAB script
+matlab -nodisplay -nosoftwareopengl -r "run('fig1a');run('figure1b');run('fig2');run('figure3abc');run('fig3d'); exit;"
